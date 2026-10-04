@@ -15,6 +15,16 @@
 
 ## 安装
 
+### 推荐：从 Release 下载
+
+1. 打开[最新 Release](https://github.com/evensmith341-ai/Agent/releases/latest)，在 **Assets** 中下载 `daily-ai-brief.zip`。
+2. 解压，将其中的 `daily-ai-brief` 文件夹复制到用户主目录下的 `.agents/skills/`，没有该目录时先创建。
+3. 在 Codex 中尝试本文的调用示例。技能没有出现时，重启 Codex 后再试。
+
+Windows 通常是 `C:\Users\你的用户名\.agents\skills\`；macOS / Linux 为 `~/.agents/skills/`。ZIP 内附有 `安装说明.md`。如果已有同名技能，先备份并移走旧目录再安装。
+
+[直接下载技能 ZIP](https://github.com/evensmith341-ai/Agent/releases/latest/download/daily-ai-brief.zip)
+
 ### 方式一：克隆仓库后安装
 
 先在终端执行：
@@ -97,7 +107,7 @@ Codex 安装器负责下载文件并选择安装位置，无需手动克隆仓�
 
 ## 更新
 
-如果是克隆安装，在本仓库目录执行 `git pull --ff-only`；如果是 ZIP 安装，重新下载并解压最新版本。备份并移走技能安装目录中的旧 `daily-ai-brief` 文件夹，然后按上述步骤复制最新文件，再尝试调用技能。
+如果是克隆安装，在本仓库目录执行 `git pull --ff-only`；如果是 Release 或 ZIP 安装，重新下载并解压最新版本。备份并移走技能安装目录中的旧 `daily-ai-brief` 文件夹，然后按上述步骤复制最新文件，再尝试调用技能。
 
 ## 检索能力
 
