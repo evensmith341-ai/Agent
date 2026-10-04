@@ -1,0 +1,4 @@
+interface:
+  display_name: "每日 AI 简报"
+  short_description: "按指定日期检索 AI 新闻、arXiv 论文和 GitHub 开源项目，核验真实来源"
+  default_prompt: "使用 $daily-ai-brief 生成 2026-10-03 的每日 AI 简报，包含新闻、论文和开源项目，并逐条核验日期与来源链接。"
