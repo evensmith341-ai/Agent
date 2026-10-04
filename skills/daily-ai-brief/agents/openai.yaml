@@ -1,4 +1,4 @@
 interface:
   display_name: "每日 AI 热点简报"
-  short_description: "检索 AI 热点新闻与热门技能，支持 Star 总榜、趋势、周榜和月榜，并介绍技能作用"
-  default_prompt: "使用 $daily-ai-brief 生成今天的 AI 热点新闻概要和当月 GitHub AI 技能月榜，标明年月、统计区间与 Star 数据来源，介绍每个技能及其作用。"
+  short_description: "检索每日 AI 热点新闻和近七日热门技能，按新增获星排名，并介绍技能内容及作用"
+  default_prompt: "使用 $daily-ai-brief 生成今天的 AI 热点新闻概要和近 7 天热门 AI 技能榜，介绍技能及其作用，使用 GitHub 仓库主页链接，注明新增获星与统计区间。"
